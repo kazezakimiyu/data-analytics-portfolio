@@ -35,25 +35,21 @@ Regional service areas
 
 Due to data confidentiality, the dataset in this repository is a simplified sample version that preserves the structure used in the analysis.
 
-## Analysis Workflow
+## Data Workflow
 
-The analysis involved several steps:
+This project follows a structured data pipeline:
 
-**1. Data Cleaning**
+1. **Data Cleaning (Python)**  
+   Raw inventory data contained inconsistent naming, formatting issues, and category mismatches.  
+   A Python script was developed to standardize item names, clean text fields, and apply rule-based categorization.
 
-Python scripts were used to standardize food shelf records and correct formatting issues such as trailing spaces and inconsistent naming conventions.
+2. **Data Analysis (SQL)**  
+   Cleaned data was queried using SQL (AWS Athena) to generate category-level metrics such as total cost, item distribution, and cost per visit.
 
-**2. SQL Analysis**
+3. **Data Visualization (Tableau)**  
+   The processed data was visualized in an interactive dashboard to identify cost drivers and compare food shelf performance against benchmarks.
 
-SQL queries were executed in AWS Athena to aggregate distribution metrics and identify patterns across regions and food categories.
-
-**3. Automation**
-
-A rule-based Python automation tool was developed to standardize reporting workflows, reducing preparation time from 2 days to approximately 3 hours.
-
-**4. Visualization**
-
-Tableau dashboards were created to visualize food supply imbalances and benchmark food shelves against statewide averages.
+This pipeline reduced manual preprocessing effort and enabled reliable downstream analysis.
 
 ## Key Insights
 
