@@ -6,6 +6,9 @@ The analysis was developed during my data analytics internship with a nonprofit 
 
 The objective was to help partners better understand inventory distribution patterns and identify categories experiencing shortages.
 
+## Dashboard Preview
+![Dashboard](images/dashboard-preview.png)
+
 ## Dataset
 The dataset includes food inventory and distribution records collected from 230+ food shelves across **Minnesota**.
 
