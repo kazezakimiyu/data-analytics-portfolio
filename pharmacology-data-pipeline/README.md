@@ -73,6 +73,14 @@ The final dataset includes:
 
 ---
 
+## Notes
+
+All files in this repository are simplified samples created for demonstration purposes only.  
+The structure is intentionally generalized and does not fully match the original confidential project.  
+The Python scripts are included to illustrate the workflow and may require modification to run with the sample files provided here.
+
+---
+
 ## Project Impact
 
 This pipeline transformed a manual, time-intensive process into an automated workflow.
