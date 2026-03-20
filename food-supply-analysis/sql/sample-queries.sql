@@ -1,3 +1,20 @@
+-- Sample SQL Query: Data Extraction for Food Supply Analysis
+--
+-- Purpose:
+-- Retrieves cleaned, item-level inventory data for a specific food shelf
+-- within a defined time range. This dataset serves as the foundation for
+-- downstream aggregation and dashboard analysis.
+--
+-- Key Logic:
+-- - Joins inventory records with shelf, category, and item type reference tables
+-- - Filters data by food bank, shelf identifier, and date range
+-- - Calculates total cost by combining item sales and delivery fees
+-- - Enriches raw records with standardized category and item type labels
+--
+-- Use Case:
+-- This query supports detailed analysis of inventory distribution and cost
+-- structure, and is used as an intermediate dataset for Tableau visualization.
+
 SELECT
     i.record_date,
     i.item_id,
