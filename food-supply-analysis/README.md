@@ -7,6 +7,17 @@ The analysis was developed during my data analytics internship with a nonprofit 
 The objective was to help partners better understand inventory distribution patterns and identify categories experiencing shortages.
 
 ## Dashboard Preview
+
+This dashboard provides a detailed view of food distribution cost patterns across categories and regions, helping identify areas of high spending and potential supply gaps.
+
+The top section shows total spending by food category, highlighting which categories contribute the most to overall cost.
+
+The bottom left chart compares cost per individual visit across a selected food shelf, food bank median, and state median, enabling benchmarking of operational efficiency.
+
+The table on the right displays the most expensive items within each category, offering granular insight into cost drivers.
+
+Interactive filters (year, time period, food shelf and food bank) allow users to explore trends across different timeframes and locations.
+
 ![Dashboard](images/fsa_report_screenshot.png)
 
 ## Dataset
