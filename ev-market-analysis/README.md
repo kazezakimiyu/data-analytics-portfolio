@@ -71,3 +71,9 @@ The dashboard enables stakeholders to explore EV adoption interactively and supp
 
 
 ## Repository Structure
+
+images/ → dataset and dashboard screenshots used in README
+
+data/ → source dataset (sample or full dataset from data.gov)
+
+README.md → project overview, workflow, and analysis summary
