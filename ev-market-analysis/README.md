@@ -32,8 +32,9 @@ The dataset includes information such as:
 - County / geographic location  
 - Electric vehicle type (BEV / PHEV)  
 
-![Dataset Preview](images/dataset-preview.png)
+![Dataset Preview](images/dataset-preview1.png)
 
+![Dataset Preview](images/dataset-preview2.png)
 
 ## Dashboard Preview
 
